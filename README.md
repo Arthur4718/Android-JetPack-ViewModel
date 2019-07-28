@@ -62,9 +62,8 @@ Inside the Main Activity, on the On Create method, we fetch data from the model 
     TextView mTextView = findViewById(R.id.tv_number);
     //Providing data through the model without an interface
     MainActivityModel model = ViewModelProviders.of(this).get(MainActivityModel.class);
-   String myRandomNumber = model.getNumber();
-   
-   
+    String myRandomNumber = model.getNumber();
+ 
 ```
 
 
